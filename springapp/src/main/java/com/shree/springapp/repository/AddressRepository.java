@@ -1,0 +1,10 @@
+package com.shree.springapp.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.shree.springapp.model.Address;
+
+public interface AddressRepository extends JpaRepository<Address,Long>
+{
+
+}
